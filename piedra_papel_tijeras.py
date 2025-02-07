@@ -1,19 +1,19 @@
 import random
 
-# Mostrar las opciones de forma amigable
+#elecciones
 print("╔══════════════════╗")
 print("1 = Piedra")
 print("2 = Papel")
 print("3 = Tijeras")
 print("╚══════════════════╝")
 
-# Pedir la elección del jugador
+
 print("╔═══════════════════════════════════╗")
 opcion = input("Elige una opción (1-3): ")
 opcion = int(opcion)
 print("╚═══════════════════════════════════╝")
 
-# Verificar si la opción es válida
+#Verificarsilaopciónesválida
 if opcion < 1 or opcion > 3:
     print("Opción no válida. Por favor elige un número entre 1 y 3.")
 else:
